@@ -7,21 +7,11 @@ import org.litepal.crud.DataSupport;
  */
 
 public class City extends DataSupport {
-    private int cityId;
     private String weatherId;
-    private String cityEn;
     private String provinceZh;
     private String leaderZh;
     private String lat;
     private String lon;
-
-    public int getCityId() {
-        return cityId;
-    }
-
-    public void setCityId(int cityId) {
-        this.cityId = cityId;
-    }
 
     public String getWeatherId() {
         return weatherId;
@@ -29,14 +19,6 @@ public class City extends DataSupport {
 
     public void setWeatherId(String weatherId) {
         this.weatherId = weatherId;
-    }
-
-    public String getCityEn() {
-        return cityEn;
-    }
-
-    public void setCityEn(String cityEn) {
-        this.cityEn = cityEn;
     }
 
     public String getProvinceZh() {

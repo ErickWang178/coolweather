@@ -7,6 +7,7 @@ import org.litepal.LitePalApplication;
 
 /**
  * Created by Erick on 2017/5/15.
+ * Get Context of the Application
  */
 
 public class MyApplication extends Application {
